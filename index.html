@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripAdvisor Clone</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+        
+        <div class="navbar">
+
+            <div class="navbar__s1">
+                <h1 class="navbar__s1__title">  
+                    <span class="globe">Globe</span><span class="buddy">Buddy</span>  
+                </h1>
+            </div>
+
+        </div>
+
+        <div class="menu">
+
+            <button class="ai-btn">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                Plan with AI
+            </button>
+
+            <a href="#">Discover</a>
+            <a href="#">Trips</a>
+            <a href="#">Review</a>
+            <a href="#">More</a>
+
+        </div>
+
+        <div class="right-menu">
+
+            <i class="fa-regular fa-heart"></i>
+
+            <i class="fa-solid fa-globe"></i>
+
+            <span>INR</span>
+
+            <button class="signin">
+                Sign In
+            </button>
+
+        </div>
+
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+
+        <h1>Where to?</h1>
+
+        <!-- Search Categories -->
+
+        <div class="search-options">
+
+            <div class="option">
+                <i class="fa-solid fa-house"></i>
+                <span>Search All</span>
+            </div>
+
+            <div class="option">
+                <i class="fa-solid fa-camera"></i>
+                <span>Things to Do</span>
+            </div>
+
+            <div class="option">
+                <i class="fa-solid fa-bed"></i>
+                <span>Hotels</span>
+            </div>
+
+            <div class="option">
+                <i class="fa-solid fa-utensils"></i>
+                <span>Restaurants</span>
+            </div>
+
+            <div class="option">
+                <i class="fa-solid fa-plane"></i>
+                <span>Flights</span>
+            </div>
+
+            <div class="option">
+                <i class="fa-solid fa-house-user"></i>
+                <span>Holiday Homes</span>
+            </div>
+
+        </div>
+
+        <!-- Search Box -->
+
+        <div class="search-box">
+
+            <div class="search-left">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input type="text" placeholder="Places to go, things to do, hotels...">
+
+            </div>
+
+            <div class="search-right">
+
+                <button class="ask-btn">
+                    Ask AI
+                </button>
+
+                <button class="search-btn">
+                    Search
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="travel-banner">
+
+        <div class="travel-image">
+
+            <div class="slider">
+                <img src="images/banner1.avif" alt="Travel">
+                <img src="images/banner2.avif" alt="Travel">
+                <img src="images/banner3.avif" alt="Travel">
+                <img src="images/banner4.avif" alt="Travel">
+
+                <span class="photo-tag">
+                    Eddie J
+                </span>
+
+
+            </div>
+
+        </div>
+
+        <div class="travel-content">
+
+            <h1>
+                Find things to do
+                <br>
+                for everything
+                <br>
+                you're into
+            </h1>
+
+            <p>
+                Browse 400,000+ experiences and book with us.
+            </p>
+
+            <a href="#" class="btn-book">
+                Book now
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= POPULAR DESTINATIONS ================= -->
+
+    <section class="destination">
+
+        <h2>Explore Popular Destinations</h2>
+
+        <div class="destination-container">
+
+            <div class="card">
+                <img src="images/Image Paris.avif" alt="Paris">
+                <div class="city-name">Paris, France</div>
+            </div>
+
+            <div class="card">
+                <img src="images/Image london.avif" alt="London">
+                <div class="city-name">London, England</div>
+            </div>
+
+            <div class="card">
+                <img src="images/Image Dubai.avif" alt="Dubai">
+                <div class="city-name">Dubai, UAE</div>
+            </div>
+
+            <div class="card">
+                <img src="images/Image Maldives(4).avif" alt="Maldives">
+                <div class="city-name">Maldives</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Cruise Section -->
+
+    <section class="cruise">
+        <div class="cruise__container">
+
+            <h2>See the city from the water</h2>
+            <p>Hop on a cruise to check out the sights</p>
+
+            <div class="cruise__cards">
+
+                <!-- Card 1 -->
+                <div class="cruise__card">
+                    <img src="images/Cruise 1.avif" alt="Cruise">
+                    <button class="heart">♡</button>
+
+                    <h3>All Day Cruise - 3 Islands with Lunch & Drinks</h3>
+
+                    <div class="rating">
+                        <span>4.9</span>
+                        <span class="green">★★★★★</span>
+                        <span>(3,950)</span>
+                    </div>
+
+                    <h4>From ₹14,900 per adult</h4>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="cruise__card">
+                    <img src="images/Cruise 2.avif" alt="Cruise">
+                    <button class="heart">♡</button>
+
+                    <span class="tag pink">Likely To Sell Out</span>
+
+                    <h3>Manhattan Architecture Yacht Cruise</h3>
+
+                    <div class="rating">
+                        <span>4.8</span>
+                        <span class="green">★★★★★</span>
+                        <span>(729)</span>
+                    </div>
+
+                    <h4>From ₹8,272 per adult</h4>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="cruise__card">
+                    <img src="images/Cruise 3.avif" alt="Cruise">
+                    <button class="heart">♡</button>
+
+                    <span class="tag green-tag">Best Seller</span>
+
+                    <h3>Amsterdam Classic Saloon Boat Cruise</h3>
+
+                    <div class="rating">
+                        <span>4.9</span>
+                        <span class="green">★★★★★</span>
+                        <span>(28,987)</span>
+                    </div>
+
+                    <h4>From ₹1,778 per adult</h4>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="cruise__card">
+                    <img src="images/Cruise 4.avif" alt="Cruise">
+                    <button class="heart">♡</button>
+
+                    <span class="tag pink">Likely To Sell Out</span>
+
+                    <h3>Budapest Unlimited Prosecco & Beer Cruise</h3>
+
+                    <div class="rating">
+                        <span>4.6</span>
+                        <span class="green">★★★★☆</span>
+                        <span>(2,054)</span>
+                    </div>
+
+                    <h4>From ₹2,755 per adult</h4>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= WHY GLOBE BUDDY ================= -->
+
+    <section class="why-us">
+
+        <h2>Why Travel With Globe Buddy?</h2>
+
+        <p class="why-subtitle">
+            Millions of travellers trust us to discover unforgettable experiences.
+        </p>
+
+        <div class="why-container">
+
+            <div class="why-card">
+
+                <div class="why-icon">
+                    🌍
+                </div>
+
+                <h3>50,000+</h3>
+
+                <p>Destinations Worldwide</p>
+
+            </div>
+
+            <div class="why-card">
+
+                <div class="why-icon">
+                    😊
+                </div>
+
+                <h3>5 Million+</h3>
+
+                <p>Happy Travellers</p>
+
+            </div>
+
+            <div class="why-card">
+
+                <div class="why-icon">
+                    🏨
+                </div>
+
+                <h3>200,000+</h3>
+
+                <p>Hotels & Resorts</p>
+
+            </div>
+
+            <div class="why-card">
+
+                <div class="why-icon">
+                    ✈️
+                </div>
+
+                <h3>1 Million+</h3>
+
+                <p>Successful Bookings</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= NEWSLETTER ================= -->
+
+    <section class="newsletter">
+
+        <div class="newsletter-bg">
+
+            <span class="circle circle1"></span>
+            <span class="circle circle2"></span>
+            <span class="circle circle3"></span>
+
+        </div>
+
+        <div class="newsletter-card">
+
+            <div class="newsletter-top">
+
+                <span class="newsletter-badge">
+                    ✈ Join 5 Million+ Happy Travellers
+                </span>
+
+                <h2>
+                    Unlock Your
+                    <span>Next Adventure</span>
+                </h2>
+
+                <p>
+                    Get exclusive travel deals, hidden destinations,
+                    flight offers, hotel discounts and travel inspiration
+                    delivered directly to your inbox.
+                </p>
+
+            </div>
+
+            <!-- Email Form -->
+
+            <form class="newsletter-form">
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <input type="email" placeholder="Enter your email address" required>
+
+                </div>
+
+                <button>
+
+                    Subscribe
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+            </form>
+
+            <!-- Trust -->
+
+            <div class="newsletter-trust">
+
+                <div class="trust-item">
+
+                    ⭐⭐⭐⭐⭐
+
+                    <span>Rated by travellers worldwide</span>
+
+                </div>
+
+            </div>
+
+            <!-- Features -->
+
+            <div class="newsletter-features">
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🌍
+                    </div>
+
+                    <h4>Exclusive Deals</h4>
+
+                    <p>
+                        Early access to amazing travel offers.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ✈️
+                    </div>
+
+                    <h4>Weekly Guides</h4>
+
+                    <p>
+                        Discover beautiful places before everyone else.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🎁
+                    </div>
+
+                    <h4>Member Rewards</h4>
+
+                    <p>
+                        Receive rewards and special member discounts.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- Column 1 -->
+            <div class="footer-column">
+                <h3>About Globe Buddy</h3>
+
+                <a href="#">About Us</a>
+                <a href="#">Press</a>
+                <a href="#">Resources & Policies</a>
+                <a href="#">Careers</a>
+                <a href="#">Trust & Safety</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Globe Buddy Blog</a>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="footer-column">
+                <h3>Explore</h3>
+
+                <a href="#">Write a Review</a>
+                <a href="#">Add a Place</a>
+                <a href="#">Join</a>
+                <a href="#">Travellers' Choice</a>
+                <a href="#">Help Centre</a>
+                <a href="#">Travel Stories</a>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="footer-column">
+                <h3>Do Business With Us</h3>
+
+                <a href="#">Owners & Tourism</a>
+                <a href="#">Business Advantage</a>
+                <a href="#">Sponsored Placements</a>
+                <a href="#">Advertise With Us</a>
+                <a href="#">Content API</a>
+
+                <br>
+
+                <h3>Get The App</h3>
+
+                <a href="#">iPhone App</a>
+                <a href="#">Android App</a>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="footer-column">
+                <h3>Globe Buddy Sites</h3>
+
+                <p>
+                    Book tours and attractions around the world with
+                    <a href="#">Globe Buddy Tours</a>
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Footer Bottom -->
+
+        <div class="footer-bottom">
+
+            <div class="footer-left">
+
+                <div class="footer-logo">
+
+                    <img src="images/Image 4.png" alt="Globe Buddy Logo">
+
+                    <div class="footer-copy">
+
+                        <p>© 2026 Globe Buddy. All rights reserved.</p>
+
+                        <div class="footer-links">
+
+                            <a href="#">Terms of Use</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Cookie Policy</a>
+                            <a href="#">Cookie Consent</a>
+                            <a href="#">How the Site Works</a>
+                            <a href="#">Contact Us</a>
+                            <a href="#">Accessibility</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <p class="footer-text">
+
+                    This website is for travellers around the world.
+                    Browse destinations, discover experiences and plan
+                    unforgettable journeys with Globe Buddy.
+
+                </p>
+
+                <a href="#" class="read-more">
+
+                    Read More ▼
+
+                </a>
+
+            </div>
+
+            <div class="footer-right">
+
+                <div class="footer-select">
+
+                    <select>
+                        <option>₹ INR</option>
+                        <option>$ USD</option>
+                        <option>€ EUR</option>
+                        <option>£ GBP</option>
+                    </select>
+
+                    <select>
+                        <option>India</option>
+                        <option>United States</option>
+                        <option>United Kingdom</option>
+                        <option>Australia</option>
+                    </select>
+
+                </div>
+
+                <div class="footer-social">
+
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
